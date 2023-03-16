@@ -1,12 +1,12 @@
 /* Banner with background */
-div#topbanner {
+div#Gur-topbanner {
     background: url(images/licensed-image.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 /* text that shows over the banner */
-div#topbanner h1 {
+div#Gur-topbanner h1 {
     text-align: center;
     padding: 265px 0px 75px;
     margin: 0px;
@@ -22,9 +22,13 @@ body {
     background: #f3dab8;
 }
 
-div#main-content,
-.facts,
-#contact {
+div#body-with-content{
+    padding: 10px;
+}
+.facts-about-toucans {
+    padding: 10px;
+}
+#contact-with-Gurwinder {
     padding: 10px;
 }
 
@@ -35,7 +39,7 @@ main {
 }
 
 /* navigation list  */
-div#navigation ul {
+div#Malhi-navigation ul {
     list-style: none;
     display: inline-flex;
     justify-content: space-evenly;
@@ -44,7 +48,7 @@ div#navigation ul {
     width: 100%;
 }
 
-div#navigation ul li {
+div#Malhi-navigation ul li {
     width: 100%;
     text-align: center;
     font-size: 20px;
@@ -52,26 +56,26 @@ div#navigation ul li {
     text-transform: uppercase;
 }
 
-div#navigation ul li:nth-child(2) {
+.border{
     border: 1px solid black;
     border-top: 0px;
     border-bottom: 0px;
 }
 
 /* layout for main content */
-.flex {
+.flex-box {
     display: flex;
 }
 
-div#main-content img {
+div#body-with-content img {
     width: 100%;
 }
 
-.col-2 {
+.c-2 {
     width: 20%;
 }
 
-.col-10 {
+.c-10 {
     width: 80%;
 }
 
@@ -80,19 +84,24 @@ h3 {
     margin: 11px 0px;
 }
 
-div#main-content p {
+div#body-with-content p {
     padding: 0px 18px;
     margin: 0px;
     font-size: 18px;
 }
 
-/* facts section */
-.facts ul {
+/* facts about Toucans section */
+.facts-about-toucans ul {
     padding: 0px 21px;
     font-size: 17px;
 }
 
-/* form style */
+/* footer */
+footer {
+    padding: 10px;
+    text-align: right;
+}
+/* form design */
 form {
     display: flex;
     flex-direction: column;
@@ -106,7 +115,7 @@ form {
     margin-bottom: 7px;
 }
 
-input[type="submit"] {
+#submit-button {
     border: 1px solid black;
     width: 82px;
     font-size: 14px;
@@ -118,10 +127,4 @@ input[type="submit"] {
 
 textarea#message {
     height: 64PX;
-}
-
-/* footer */
-footer {
-    padding: 10px;
-    text-align: right;
 }
